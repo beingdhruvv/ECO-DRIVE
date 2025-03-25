@@ -224,7 +224,7 @@ eco-drive/
       <a href="https://github.com/beingdhruvv">
         <img src="https://avatars.githubusercontent.com/beingdhruvv" width="100px;" alt="Dhruv Sutar"/>
         <br />
-        <sub><b>Dhruv Sutar</b></sub>
+        <sub><b>Dhruv Suthar</b></sub>
       </a>
       <br />
       <sub>Full Stack Developer</sub>
