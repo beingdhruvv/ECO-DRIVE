@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags for responsive design -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - EcoDrive</title>
+    
+    <!-- External CSS - Main stylesheet -->
+    <link rel="stylesheet" href="../CSS/styles.css">
+    <!-- External CSS - Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="../Backend/auth.js" defer></script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-brand">EcoDrive</div>
+        <button class="nav-toggle" aria-label="toggle navigation"><span class="hamburger"></span></button>
+        <ul class="nav-menu">
+            <li><a href="/views/index.html">Home</a></li>
+            <li><a href="/views/about.html">About Us</a></li>
+            <li><a href="/views/vehicles.html">EV & PHEV</a></li>
+            <li><a href="/views/login.html">Login</a></li>
+            <li><a href="/views/contact.html" class="active">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="contact-page">
+        <div class="contact-container">
+            <!-- Contact Information Section -->
+            <div class="contact-info">
+                <h1>Get in Touch</h1>
+                <p>Have questions about electric vehicles? We're here to help!</p>
+                <div class="contact-details">
+                    <!-- Contact details with icons -->
+                    <div class="contact-item"><span class="icon">📍</span><p>Eco Drive Head office, near Eco park, Eco city.</p></div>
+                    <div class="contact-item"><span class="icon">📧</span><p>info@ecodrive.com</p></div>
+                    <div class="contact-item"><span class="icon">📞</span><p>12345-67890</p></div>
+                </div>
+            </div>
+
+            <!-- Contact Form Section with Inline CSS -->
+            <div class="contact-form-container">
+                <!-- Form with inline CSS for styling -->
+                <form id="contactForm" class="contact-form" action="/api/contact" method="POST" style="background: rgba(255, 255, 255, 0.95); padding: 30px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);">
+                    <!-- Form fields -->
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>EcoDrive</h4>
+                <p>Driving towards a sustainable future</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="/views/index.html">Home</a></li>
+                    <li><a href="/views/about.html">About Us</a></li>
+                    <li><a href="/views/vehicles.html">Vehicles</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Connect With Us</h4>
+                <div class="social-links">
+                    <a href="#" aria-label="Visit our Facebook page"><i class="fab fa-facebook"></i></a>
+                    <a href="#" aria-label="Follow us on Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Follow us on Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 EcoDrive. All rights reserved by Dev Patel.</p>
+        </div>
+    </footer>
+
+    <!-- External JavaScript -->
+    <script src="../Backend/script.js" defer></script>
+    <!-- Form submission handling -->
+    <script>
+        // Form submission event listener
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Collect form data
+            const formData = {
+                name: document.getElementById('name').value,
+                email: document.getElementById('email').value,
+                subject: document.getElementById('subject').value,
+                message: document.getElementById('message').value
+            };
+
+            // Send form data to server
+            fetch('/api/contact', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(formData)
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    alert('Message sent successfully!');
+                    window.location.href = '/contact.html';
+                } else {
+                    alert(data.error || 'Error sending message. Please try again.');
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert('Error sending message. Please try again.');
+            });
+        });
+    </script>
+</body>
+</html>
