@@ -230,7 +230,7 @@ eco-drive/
       <sub>Full Stack Developer</sub>
     </td>
     <td align="center">
-      <a href="https://github.com/N84an">
+      <a href="https://github.com/NayanSadariya">
         <img src="https://avatars.githubusercontent.com/NayanSadariya" width="100px;" alt="Contributor 2"/>
         <br />
         <sub><b>Nayan Sadariya</b></sub>
