@@ -231,7 +231,7 @@ eco-drive/
     </td>
     <td align="center">
       <a href="https://github.com/N84an">
-        <img src="https://avatars.githubusercontent.com/N84an" width="100px;" alt="Contributor 2"/>
+        <img src="https://avatars.githubusercontent.com/NayanSadariya" width="100px;" alt="Contributor 2"/>
         <br />
         <sub><b>Nayan Sadariya</b></sub>
       </a>
