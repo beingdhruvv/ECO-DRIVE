@@ -30,7 +30,6 @@ EcoDrive is a comprehensive web platform dedicated to providing information abou
 - **Interactive UI**
   - 📱 Responsive design for all devices
   - ✨ Smooth animations and transitions
-  - 🖱️ Custom cursor effects
   - 🌊 Parallax scrolling
   - 🔄 Dynamic content loading
 
@@ -62,7 +61,7 @@ Before running this project, make sure you have the following installed:
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/eco-drive.git
+   git clone https://github.com/beingdhruvv/eco-drive.git
    cd eco-drive
    ```
 
