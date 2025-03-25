@@ -10,19 +10,6 @@
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/eco-drive?style=social)](https://github.com/yourusername/eco-drive/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/yourusername/eco-drive?style=social)](https://github.com/yourusername/eco-drive/network)
-[![GitHub issues](https://img.shields.io/github/issues/yourusername/eco-drive)](https://github.com/yourusername/eco-drive/issues)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/yourusername/eco-drive)](https://github.com/yourusername/eco-drive/pulls)
-[![GitHub contributors](https://img.shields.io/github/contributors/yourusername/eco-drive)](https://github.com/yourusername/eco-drive/graphs/contributors)
-[![GitHub license](https://img.shields.io/github/license/yourusername/eco-drive)](https://github.com/yourusername/eco-drive/blob/main/LICENSE)
-
-[![Website](https://img.shields.io/website?url=https%3A%2F%2Fecodrive.com)](https://ecodrive.com)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/yourusername/eco-drive/graphs/commit-activity)
-[![Last commit](https://img.shields.io/github/last-commit/yourusername/eco-drive)](https://github.com/yourusername/eco-drive/commits/main)
-[![Release](https://img.shields.io/github/v/release/yourusername/eco-drive)](https://github.com/yourusername/eco-drive/releases)
-[![Downloads](https://img.shields.io/github/downloads/yourusername/eco-drive/total)](https://github.com/yourusername/eco-drive/releases)
-
 </div>
 
 ## 🌟 Overview
