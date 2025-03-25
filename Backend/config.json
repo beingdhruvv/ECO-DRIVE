@@ -1,0 +1,22 @@
+{
+    "database": {
+        "host": "localhost",
+        "user": "root",
+        "password": "",
+        "database": "eco_drive"
+    },
+    "server": {
+        "port": 3000,
+        "mode": "development"
+    },
+    "jwt": {
+        "secret": "your-secret-key",
+        "expiresIn": "24h"
+    },
+    "email": {
+        "host": "smtp.gmail.com",
+        "port": 587,
+        "user": "your-email@gmail.com",
+        "password": "your-email-password"
+    }
+} 
