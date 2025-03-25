@@ -226,7 +226,7 @@ eco-drive/
         <sub><b>Dhruv Sutar</b></sub>
       </a>
       <br />
-      <sub>Project Lead & Full Stack Developer</sub>
+      <sub>Full Stack Developer</sub>
     </td>
     <td align="center">
       <a href="https://github.com/N84an">
