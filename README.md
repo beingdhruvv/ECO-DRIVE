@@ -150,6 +150,7 @@ eco-drive/
 ├── package-lock.json   # Locked dependencies
 ├── package.md         # Package documentation
 ├── LICENSE            # MIT License
+└── README.md          # Project documentation
 ```
 
 ## 📜 Available Scripts
