@@ -217,12 +217,39 @@ eco-drive/
   <tr>
     <td align="center">
       <a href="https://github.com/beingdhruvv">
-        <img src="https://avatars.githubusercontent.com/beingdhruvv" width="100px;" alt="Dev Patel"/>
+        <img src="https://avatars.githubusercontent.com/beingdhruvv" width="100px;" alt="Dhruv Sutar"/>
         <br />
-        <sub><b>Dev Patel</b></sub>
+        <sub><b>Dhruv Sutar</b></sub>
       </a>
       <br />
       <sub>Project Lead & Full Stack Developer</sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/N84an">
+        <img src="https://avatars.githubusercontent.com/N84an" width="100px;" alt="Contributor 2"/>
+        <br />
+        <sub><b>Contributor 2</b></sub>
+      </a>
+      <br />
+      <sub>Full Stack Developer</sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/Herly2007">
+        <img src="https://avatars.githubusercontent.com/Herly2007" width="100px;" alt="Contributor 3"/>
+        <br />
+        <sub><b>Contributor 3</b></sub>
+      </a>
+      <br />
+      <sub>Technical Writer</sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/KavyaDeopura25">
+        <img src="https://avatars.githubusercontent.com/KavyaDeopura25" width="100px;" alt="Contributor 4"/>
+        <br />
+        <sub><b>Contributor 4</b></sub>
+      </a>
+      <br />
+      <sub>QA Engineer</sub>
     </td>
   </tr>
 </table>
