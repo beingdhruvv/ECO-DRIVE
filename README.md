@@ -212,6 +212,21 @@ eco-drive/
 - Edge (latest)
 - Opera (latest)
 
+## 👥 Contributors
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/beingdhruvv">
+        <img src="https://avatars.githubusercontent.com/beingdhruvv" width="100px;" alt="Dev Patel"/>
+        <br />
+        <sub><b>Dev Patel</b></sub>
+      </a>
+      <br />
+      <sub>Project Lead & Full Stack Developer</sub>
+    </td>
+  </tr>
+</table>
+
 ## 📄 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
