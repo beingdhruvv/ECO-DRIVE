@@ -131,6 +131,7 @@ eco-drive/
 ├── Backend/
 │   ├── auth.js         # Authentication utilities
 │   ├── config.json     # Configuration settings
+│   ├── config.md       # Configuration documentation
 │   ├── database.sql    # Database schema
 │   ├── server.js       # Main server file
 │   ├── script.js       # Frontend utilities
@@ -145,7 +146,10 @@ eco-drive/
 │   ├── signup.html     # Registration page
 │   ├── profile.html    # User profile page
 │   └── vehicles.html   # Vehicle information page
-└── package.json        # Project dependencies and scripts
+├── package.json        # Project dependencies and scripts
+├── package-lock.json   # Locked dependencies
+├── package.md         # Package documentation
+├── LICENSE            # MIT License
 ```
 
 ## 📜 Available Scripts
@@ -222,7 +226,7 @@ eco-drive/
         <sub><b>Dhruv Sutar</b></sub>
       </a>
       <br />
-      <sub>Full Stack Developer</sub>
+      <sub>Project Lead & Full Stack Developer</sub>
     </td>
     <td align="center">
       <a href="https://github.com/N84an">
