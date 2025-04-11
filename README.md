@@ -240,7 +240,7 @@ eco-drive/
     </td>
     <td align="center">
       <a href="https://github.com/Herly2007">
-        <img src="https://avatars.githubusercontent.com/Herly2007" width="100px;" alt="Contributor 3"/>
+        <img src="https://avatars.githubusercontent.com/HerlyPathak" width="100px;" alt="Contributor 3"/>
         <br />
         <sub><b>Herly Pathak</b></sub>
       </a>
