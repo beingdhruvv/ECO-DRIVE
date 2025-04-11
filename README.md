@@ -239,7 +239,7 @@ eco-drive/
       <sub>Full Stack Developer</sub>
     </td>
     <td align="center">
-      <a href="https://github.com/Herly2007">
+      <a href="https://github.com/HerlyPathak">
         <img src="https://avatars.githubusercontent.com/HerlyPathak" width="100px;" alt="Contributor 3"/>
         <br />
         <sub><b>Herly Pathak</b></sub>
