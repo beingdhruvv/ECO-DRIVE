@@ -1,4 +1,4 @@
-# EcoDrive - Electric Vehicle Information Platform 🚗⚡
+# EcoDrive - Electric Vehicle Information Platform
 
 <div align="center">
 
@@ -12,33 +12,33 @@
 
 </div>
 
-## 🌟 Overview
+## Overview
 EcoDrive is a comprehensive web platform dedicated to providing information about electric and hybrid vehicles. The platform offers detailed vehicle comparisons, charging information, and user management features to help users make informed decisions about sustainable transportation.
 
-## ✨ Features
+## Features
 - **User Authentication**
-  - 🔐 Secure login and registration system
-  - 👤 Profile management
-  - 🔑 Session handling
+  - Secure login and registration system
+  - Profile management
+  - Session handling
 
 - **Vehicle Information**
-  - 🚗 Detailed EV and PHEV vehicle comparisons
-  - ⚡ Charging infrastructure information
-  - 🏭 Manufacturer comparisons
-  - 📊 Interactive comparison tables with sorting and filtering
+  - Detailed EV and PHEV vehicle comparisons
+  - Charging infrastructure information
+  - Manufacturer comparisons
+  - Interactive comparison tables with sorting and filtering
 
 - **Interactive UI**
-  - 📱 Responsive design for all devices
-  - ✨ Smooth animations and transitions
-  - 🌊 Parallax scrolling
-  - 🔄 Dynamic content loading
+  - Responsive design for all devices
+  - Smooth animations and transitions
+  - Parallax scrolling
+  - Dynamic content loading
 
 - **Contact System**
-  - 📝 Contact form with validation
-  - 📧 Email notifications
-  - 🌐 Social media integration
+  - Contact form with validation
+  - Email notifications
+  - Social media integration
 
-## 🛠️ Tech Stack
+## Tech Stack
 - **Frontend**
   - HTML5
   - CSS3 (with modern features like CSS Grid, Flexbox, and CSS Variables)
@@ -51,13 +51,13 @@ EcoDrive is a comprehensive web platform dedicated to providing information abou
   - MySQL
   - JWT for authentication
 
-## 📋 Prerequisites
+## Prerequisites
 Before running this project, make sure you have the following installed:
 - Node.js (v14.0.0 or higher)
 - MySQL (v5.7 or higher)
 - npm (Node Package Manager)
 
-## 🚀 Installation
+## Installation
 
 1. **Clone the Repository**
    ```bash
@@ -108,7 +108,7 @@ Before running this project, make sure you have the following installed:
      }
      ```
 
-## 🏃‍♂️ Running the Application
+## Running the Application
 
 1. **Development Mode**
    ```bash
@@ -125,7 +125,7 @@ Before running this project, make sure you have the following installed:
    - Open your browser and navigate to `http://localhost:3000`
    - The application will be available at this address
 
-## 📁 Project Structure
+## Project Structure
 ```
 eco-drive/
 ├── Backend/
@@ -153,71 +153,71 @@ eco-drive/
 └── README.md          # Project documentation
 ```
 
-## 📜 Available Scripts
+## Available Scripts
 - `npm start` - Start the application in production mode
 - `npm run dev` - Start the application in development mode with auto-reload
 - `npm test` - Run tests
 - `npm run build` - Build the frontend assets
 - `npm run lint` - Run ESLint for code linting
 
-## 🔍 Features in Detail
+## Features in Detail
 
-### 🔐 Authentication System
+### Authentication System
 - Secure user registration and login
 - JWT-based authentication
 - Password hashing
 - Session management
 - Protected routes
 
-### 🚗 Vehicle Comparison
+### Vehicle Comparison
 - Detailed specifications for various EV and PHEV models
 - Interactive comparison tables
 - Sorting and filtering capabilities
 - Charging information
 - Performance metrics
 
-### 🎨 User Interface
+### User Interface
 - Modern, responsive design
 - Smooth animations and transitions
 - Mobile-friendly navigation
 - Accessible components
 - Custom styling and effects
 
-### 📝 Contact System
+### Contact System
 - Form validation
 - Email notifications
 - Social media integration
 - Responsive design
 
-## 🤝 Contributing
+## Contributing
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 🔒 Security
+## Security
 - All passwords are hashed before storage
 - JWT tokens for secure authentication
 - Input validation and sanitization
 - Protected API endpoints
 - Secure session management
 
-## ⚡ Performance Optimization
+## Performance Optimization
 - Optimized images and assets
 - Efficient database queries
 - Caching mechanisms
 - Lazy loading of content
 - Minified CSS and JavaScript
 
-## 🌐 Browser Support
+## Browser Support
 - Chrome (latest)
 - Firefox (latest)
 - Safari (latest)
 - Edge (latest)
 - Opera (latest)
 
-## 👥 Contributors
+## Contributors
 <table>
   <tr>
     <td align="center">
@@ -259,16 +259,11 @@ eco-drive/
   </tr>
 </table>
 
-## 📄 License
+## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 - Font Awesome for icons
 - Unsplash for images
 - All contributors and maintainers
-
-<div align="center">
-  
-### 🌟 Star this repository if you find it helpful! ⭐
-
-</div> 
+ 
