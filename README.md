@@ -1,6 +1,6 @@
-# EcoDrive - Electric Vehicle Information Platform
-
 <div align="center">
+  
+# EcoDrive - Electric Vehicle Information Platform
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=node.js&logoColor=white)](https://nodejs.org/)
